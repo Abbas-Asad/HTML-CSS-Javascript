@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+/* Reset margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+ul li {
+  list-style: none;
+  padding: 2px;
+}
+ul {
+  margin: 0 auto;
+  width: 100%;
+  height: auto; /* Allows the height to adjust based on content */
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 76px 76px 76px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+@media screen and (max-width: 1300px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+}
