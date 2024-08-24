@@ -4,7 +4,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: none;
 }
-html {
+body {
   position: relative; /* for fixed arrow */
 }
 button,
