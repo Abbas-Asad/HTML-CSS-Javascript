@@ -125,12 +125,12 @@ svg {
   font-size: 12px;
   border-radius: 5px;
 }
-.item-lang1 {
+/* .item-lang1 {
   padding-bottom: 27.75px;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-}
+} */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -167,7 +167,7 @@ svg {
   margin-bottom: 41px;
 }
 
-.item-lang2 {
+/* .item-lang2 {
   font-weight: 400;
   font-size: 15px;
 }
@@ -175,7 +175,7 @@ svg {
   font-size: 8px;
   font-weight: 300;
   padding: 20px;
-}
+} */
 
 article div {
   display: flex;
