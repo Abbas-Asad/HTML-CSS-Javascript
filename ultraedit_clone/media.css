@@ -111,9 +111,6 @@
 /* Media queries related to all the website */
 
 @media screen and (max-width: 1300px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
   .footer-grid-cont {
     grid-template-columns: 1fr 1fr;
   }
@@ -127,7 +124,7 @@
     padding: 0 20px;
   }
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .footer-end {
     flex-direction: column;
@@ -140,8 +137,10 @@
     text-align: center;
   }
 }
-
 @media screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
   .download-col {
     display: flex;
     flex-direction: column;
@@ -149,5 +148,10 @@
   .footer-grid-cont {
     grid-template-columns: 1fr;
     margin: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .art-second > .main-form {
+    padding: 0 26px 36px;
   }
 }
