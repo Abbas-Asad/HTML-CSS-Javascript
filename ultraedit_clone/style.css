@@ -113,9 +113,10 @@ svg {
 
 .item {
   background-color: #f9f9f9;
-  padding: 23px;
-  border-radius: 4px;
+  padding: 23px 0 0 0;
+  border-radius: 5px;
   margin: 0 auto;
+  width: 290px;
 }
 .btn {
   background-color: #5cb85c;
@@ -126,7 +127,7 @@ svg {
   border-radius: 5px;
 }
 .item-lang1 {
-  padding-bottom: 27.75px;
+  padding-bottom: 15.75px;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -169,7 +170,7 @@ svg {
 
 .item-lang2 {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
 }
 .item-lang3 {
   font-size: 8px;
@@ -198,7 +199,7 @@ article .article-main2 {
   text-align: center;
   background-color: white;
   gap: 9px;
-  padding: 43px;
+  padding: 0 34px 36px;
   border-radius: 8px;
 }
 
@@ -225,6 +226,7 @@ article div .art-first {
 .subscription {
   color: #00b6d1;
   font-size: 24px;
+  padding: 28px 0 21px;
 }
 
 .art-second .main-form input {
@@ -249,7 +251,7 @@ article div .art-first {
 .footer-grid-cont {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 0 76px 30px 76px;
+  padding: 0 26px 30px 26px;
   margin: 0 auto;
   background-color: white;
   color: black;
@@ -285,7 +287,6 @@ article div .art-first {
 .footer-icons ul {
   display: flex;
   gap: 9px;
-  padding-right: 25px;
 }
 
 .footer-icons a svg {
@@ -326,4 +327,8 @@ article div .art-first {
 .iconcont a {
   color: white;
   text-decoration: none;
+}
+
+.vis-hid {
+  visibility: hidden;
 }
