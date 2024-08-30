@@ -79,7 +79,7 @@ svg {
 }
 .first div > span {
   font-weight: 400;
-  line-height: 75px;
+  line-height: 66px;
   font-size: 48px;
 }
 
@@ -91,7 +91,7 @@ svg {
   font-weight: 400;
   line-height: 31px;
   font-size: 24px;
-  width: 81vw;
+  width: 985px;
   margin-bottom: 38px;
   margin-top: 28px;
 }
@@ -176,6 +176,10 @@ svg {
   font-size: 8px;
   font-weight: 300;
   padding: 20px;
+}
+
+.vis-hid {
+  visibility: hidden;
 }
 
 article div {
@@ -327,8 +331,4 @@ article div .art-first {
 .iconcont a {
   color: white;
   text-decoration: none;
-}
-
-.vis-hid {
-  visibility: hidden;
 }
