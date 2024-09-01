@@ -1,2 +1,2 @@
-# web_projects
-Complete websites
+# Frontend_Projects
+Collection of web designing projects.
