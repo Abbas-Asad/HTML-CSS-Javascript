@@ -1,2 +1,2 @@
-# html_css
-A collection of HTML and CSS designs and exercises.
+# html_css_mastery
+Important topics of HTML and CSS
