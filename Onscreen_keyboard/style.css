@@ -1,0 +1,151 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f5;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title Styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input Area Styles */
+.input-text {
+  margin-bottom: 20px;
+}
+
+.input-text input {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-text input:focus {
+  border-color: #0066cc;
+}
+
+/* Keyboard Styles */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Button Styles */
+.btn,
+.delete,
+.shift,
+.space {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.delete {
+  background-color: #e74c3c;
+  color: #ffffff;
+  flex: 2;
+}
+
+.shift {
+  background-color: #f1c40f;
+  color: #ffffff;
+}
+
+.space {
+  background-color: #27ae60;
+  color: #ffffff;
+  flex: 4;
+}
+
+/* Hover and Active States */
+.btn:hover,
+.delete:hover,
+.shift:hover,
+.space:hover {
+  background-color: #004080;
+}
+
+.btn:active,
+.delete:active,
+.shift:active,
+.space:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .btn,
+  .delete,
+  .shift,
+  .space {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 15px;
+  }
+
+  .input-text input {
+    font-size: 16px;
+  }
+
+  .btn,
+  .delete,
+  .shift,
+  .space {
+    padding: 3px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
