@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: #000000d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+textarea {
+  height: 146px;
+  width: 375px;
+  overflow: hidden;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 24px;
+  margin: 35px 0 18px;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  border: none;
+  resize: none;
+}
+
+.heading-3 {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 24px;
+  padding: 7px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.container {
+  background-color: white;
+  padding: 57px 27px 41px 27px;
+  border: 1px solid black;
+  font-size: 16px;
+  border-radius: 16px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.count-div {
+  text-align: end;
+  padding: 15px 0 0 0;
+}
+
+.count-div span {
+  color: #007bff;
+}
+
+@media screen and (max-width: 530px) {
+  textarea {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 460px) {
+  textarea {
+    width: 260px;
+  }
+  .container {
+    padding: 32px 27px;
+  }
+}
+@media screen and (max-width: 400px) {
+  textarea {
+    width: 212px;
+  }
+  .heading-3 {
+    padding: 7px 52px;
+  }
+}
