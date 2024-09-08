@@ -15,7 +15,7 @@ body {
 
 .container {
   background-color: rgb(24, 18, 18);
-  padding: 20px;
+ 
   border-radius: 11px;
 }
 
@@ -42,7 +42,7 @@ body {
 .txtarea {
   resize: none;
   color: black;
-  width: 20%;
+  width: 88.3%;
   font-size: 26px;
   height: 35px;
   padding: 8px 14px;
