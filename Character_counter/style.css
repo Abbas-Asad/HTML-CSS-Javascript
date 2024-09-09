@@ -67,7 +67,7 @@ textarea {
 }
 @media screen and (max-width: 460px) {
   textarea {
-    width: 260px;
+    width: 270px;
   }
   .container {
     padding: 32px 27px;
@@ -75,7 +75,7 @@ textarea {
 }
 @media screen and (max-width: 400px) {
   textarea {
-    width: 212px;
+    width: 270px;
   }
   .heading-3 {
     padding: 7px 13px;
