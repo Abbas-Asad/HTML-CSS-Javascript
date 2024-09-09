@@ -106,14 +106,4 @@ body {
   .txtarea {
     padding: 8px 14px 4px;
   }
-  .minus {
-    padding: 15px 25.3px;
-  }
-  .equal {
-    padding: 15px 24px;
-  }
-  .multi,
-  .divide {
-    padding: 15px 23.7px;
-  }
 }
