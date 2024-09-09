@@ -30,7 +30,7 @@ body {
 .btn {
   background-color: #333333;
   color: white;
-  padding: 14px 24px;
+  padding: 15px 24px;
   border-radius: 34px;
   border: none;
   cursor: pointer;
@@ -49,7 +49,6 @@ body {
   padding: 8px 14px;
   overflow: hidden;
 }
-
 .txtarea::placeholder {
   color: black;
 }
@@ -85,26 +84,39 @@ body {
   margin: 9px 0;
 }
 .prl-15 {
-  padding: 14px 15px;
+  padding: 15px 15px;
 }
 .prl-26dec9 {
-  padding: 14px 26.9px;
+  padding: 15px 26.9px;
 }
 .prl-27dec87 {
-  padding: 14px 27.87px;
+  padding: 15px 27.87px;
 }
 .prl-19 {
-  padding: 14px 19px;
+  padding: 15px 19px;
 }
 .prl-22 {
-  padding: 14px 22px;
+  padding: 15px 22px;
 }
 .prl-21 {
-  padding: 14px 21px;
+  padding: 15px 21px;
 }
 
 @media screen and (max-width: 430px) {
   .txtarea {
     padding: 8px 14px 4px;
+  }
+  .minus {
+    padding: 15px 25.3px;
+  }
+  .equal {
+    padding: 15px 24px;
+  }
+  .multi,
+  .divide {
+    padding: 15px 23.7px;
+  }
+  .plus {
+    padding: 15px 21.9px;
   }
 }
