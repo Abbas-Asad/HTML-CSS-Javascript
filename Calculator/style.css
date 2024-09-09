@@ -39,15 +39,17 @@ body {
   transition: background-color 0.3s, transform 0.1s;
 }
 
-/* .txtarea {
+.txtarea {
   resize: none;
   color: black;
   width: 88.3%;
-  font-size: 26px;
+  font-size: 21px;
+  line-height: 35px;
   height: 35px;
   padding: 8px 14px;
   overflow: hidden;
-} */
+}
+
 .txtarea::placeholder {
   color: black;
 }
