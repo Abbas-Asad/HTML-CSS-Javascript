@@ -103,3 +103,8 @@ body {
   padding: 14px 21px;
 }
 
+@media screen and (max-width: 430px) {
+  .txtarea {
+    padding: 8px 14px 4px;
+  }
+}
