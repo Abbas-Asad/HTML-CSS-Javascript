@@ -9,11 +9,11 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
 .container {
+  margin-top: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,9 +25,11 @@ body {
   resize: none;
   width: 277px;
   height: 26px;
-  padding: 10px 38px 10px 12px;
+  padding: 10px 38px 8px 12px;
   border: 2px solid darkblue;
   border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .btn-col-chng {
@@ -46,4 +48,10 @@ body {
 
 #inp-col::placeholder {
   color: darkblue;
+}
+
+@media screen and (max-width: 430px) {
+  #inp-col {
+    padding: 12px 38px 5px 12px;
+  }
 }
