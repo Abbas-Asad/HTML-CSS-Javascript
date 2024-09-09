@@ -10,7 +10,6 @@ body {
   background-color: #2eedff;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -19,6 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   background: white;
+  margin-top: 35vh 
   padding: 26px 21px 13px 21px;
 }
 .btn-col-chng {
