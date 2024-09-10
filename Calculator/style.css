@@ -31,6 +31,7 @@ body {
   background-color: #333333;
   color: white;
   padding: 15px 24px;
+  /* border-radius: 34px; */
   border: none;
   cursor: pointer;
   font-size: 24px;
@@ -104,5 +105,18 @@ body {
 @media screen and (max-width: 430px) {
   .txtarea {
     padding: 8px 14px 4px;
+  }
+  .minus {
+    padding: 15px 24.5px;
+  }
+  .equal {
+    padding: 15px 24px;
+  }
+  .multi,
+  .divide {
+    padding: 15px 22.9px;
+  }
+  .plus {
+    padding: 15px 20.9px;
   }
 }
