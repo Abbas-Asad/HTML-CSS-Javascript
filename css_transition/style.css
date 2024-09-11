@@ -11,8 +11,7 @@ body {
 body:hover {
   background: black;
   transition: 2s;
-}
-.box {
+}.box {
   background-color: blue;
   height: 200px;
   width: 200px;
