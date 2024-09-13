@@ -21,6 +21,7 @@ body {
 
 .hname {
   color: white;
+  text-align: center;
   font-family: inherit;
   font-weight: 400;
   padding-bottom: 6px;
