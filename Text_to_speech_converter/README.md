@@ -1,2 +1,2 @@
 # 🔗 Check it out here :
-# https://charcountingtool.vercel.app
+# https://speechify-tool.vercel.app
