@@ -25,7 +25,10 @@ nav ul {
 }
 
 nav ul li {
-  padding: 17px 30px;
+  padding: 15px 18px;
+  font-style: italic;
+  font-size: 212%;
+  font-weight: bold;
 }
 
 header,
@@ -64,6 +67,7 @@ body {
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
+  font-size: 16px;
   background-color: var(--bgcolor);
   color: var(--txtcolor);
   cursor: pointer;
@@ -73,8 +77,8 @@ body {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 395px) {
   nav ul li {
-    padding: 15px 18px;
+    font-size: 180%;
   }
 }
