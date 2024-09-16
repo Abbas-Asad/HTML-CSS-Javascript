@@ -25,14 +25,13 @@ function currentTime() {
   ];
   let month = monthNames[current_date.getMonth()]; //month starts from zero in javascript
   let dayNames = [
-    "",
+    "Sunday",
     "Monday",
     "Tuesday",
-    "Wednesday ",
+    "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
-    "Sunday",
   ];
   let day = dayNames[current_date.getDay()];
   let year = current_date.getFullYear();
