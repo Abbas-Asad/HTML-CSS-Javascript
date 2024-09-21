@@ -1,2 +1,2 @@
 # 🔗 Check it out here :
-# https://dynamic-web-animations.vercel.app
+# https://creative-animation.vercel.app
