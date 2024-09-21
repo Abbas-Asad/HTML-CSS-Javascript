@@ -1,2 +1,2 @@
 # 🔗 Check it out here :
-# https://age-checker-tool.vercel.app
+# https://age-checker-tool.netlify.app
