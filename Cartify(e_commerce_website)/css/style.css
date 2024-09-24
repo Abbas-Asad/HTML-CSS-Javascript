@@ -10,6 +10,9 @@ body {
   background-color: #f5f5f5;
   color: #333;
 }
+
+/* header */
+
 header {
   position: sticky;
   z-index: 1000;
@@ -20,7 +23,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #2f3640;
-  /* padding: 10px 20px 10px 0px; */
   padding: 10px 20px 4px 0px;
 }
 
@@ -51,18 +53,12 @@ header {
   transition: color 0.3s;
 }
 .nav-links li a:hover {
-  color: #17a2b8; 
+  color: #17a2b8;
 }
 
 nav ul li {
   list-style: none;
   padding: 0 32px;
-}
-
-.cart-icon a {
-  color: #ffffff;
-  font-size: 24px;
-  text-decoration: none;
 }
 
 .hamburger {
@@ -72,56 +68,10 @@ nav ul li {
   cursor: pointer;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #343a40;
-    width: 100%;
-    padding: 10px 0;
-  }
+/* main */
 
-  .nav-links.show {
-    display: flex;
-    margin-top: 19px;
-    gap: 29px;
-    padding: 37px 0;
-  }
-
-  .hamburger {
-    display: block;
-    margin-top: -10px;
-  }
-}
-
-.lines {
-  /* font-size: 14px;
-  font-weight: 400; */
-  padding: 0 0 0 17px;
-}
-.lines .lin-first {
-  font-size: 18px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.lines .lin-second {
-  font-size: 16px;
-  color: #1b8a9c;
-  font-weight: 600;
-  letter-spacing: 0.25px;
-}
-.lines .lin-third {
-  font-size: 12px;
-  color: #6c757d;
-}
-.card h2 {
-  font-size: 22px;
-  font-weight: 600;
+.container {
+  min-height: calc(100vh - 58px - 12vh);
 }
 
 .card {
@@ -130,6 +80,11 @@ nav ul li {
   background-color: white;
   border: 1px solid white;
   position: relative;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .cards {
@@ -152,16 +107,6 @@ nav ul li {
   margin: 0 0 0 15px;
 }
 
-.container {
-  min-height: calc(100vh - 58px - 12vh);
-}
-/* cont img div waghera */
-
-.img-div {
-  /* height: 200px;
-    width: 200px; */
-}
-
 .img-div img {
   height: 200px;
   width: 200px;
@@ -173,39 +118,25 @@ nav ul li {
 .img-div img:hover {
   scale: 1;
 }
-/* add to cart styling */
 
-.cart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 9px;
-  align-items: center;
-  position: fixed;
-  /* right: 25px; */
-  right: 15px;
-  bottom: 28px;
-  width: 300px;
-  background-color: #ffffff;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 20;
+.lines {
+  padding: 0 0 0 17px;
 }
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* margin-bottom: 10px; */
-}
-
-.cart-item span {
-  /* margin: 0 10px; */
-}
-
-.cart-total {
+.lines .lin-first {
   font-size: 18px;
-  /* margin-bottom: 10px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lines .lin-second {
+  font-size: 16px;
+  color: #1b8a9c;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.lines .lin-third {
+  font-size: 12px;
+  color: #6c757d;
 }
 
 .add-to-cart {
@@ -215,10 +146,41 @@ nav ul li {
   color: white;
   border: none;
   cursor: pointer;
+  transition: 0.4s ease-out;
 }
+
 .add-to-cart:hover {
   background-color: #138496;
 }
+
+/* cart section in main */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  align-items: center;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-total {
+  font-size: 18px;
+}
+
 .quantity-control {
   display: flex;
   align-items: center;
@@ -226,17 +188,20 @@ nav ul li {
 }
 
 .quantity-btn {
-  background-color: #dc3545;
+  background-color: #17a2b8;
   color: white;
   border: none;
   cursor: pointer;
-  padding: 5px;
+  padding: 6px 10px;
   width: 100%;
+  transition: 0.4s ease-out;
 }
 
 .quantity-btn:hover {
-  background-color: #c82333;
+  background-color: #138496;
 }
+
+/* footer */
 
 footer {
   background-color: #343a40;
@@ -245,4 +210,8 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 24px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
