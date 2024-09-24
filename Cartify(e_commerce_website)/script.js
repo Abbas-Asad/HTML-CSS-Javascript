@@ -1,4 +1,4 @@
-// navbar / hamburger script
+// navbar / hamburger
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.querySelector(".nav-links");
 
@@ -6,18 +6,18 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("show");
 });
 
-// scroll btns script
+// scroll btns
 function scrollleft(button) {
   const cards = button.parentElement.querySelector(".cards");
-  cards.scrollBy({ left: -300, behavior: "smooth" });
+  cards.scrollBy({ left: -400, behavior: "smooth" });
 }
 
 function scrollRight(button) {
   const cards = button.parentElement.querySelector(".cards");
-  cards.scrollBy({ left: 300, behavior: "smooth" });
+  cards.scrollBy({ left: 400, behavior: "smooth" });
 }
 
-// cart items script
+// cart items
 let totalItems = 0;
 let totalPrice = 0;
 const itemPrices = [];
