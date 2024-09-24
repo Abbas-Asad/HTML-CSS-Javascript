@@ -1,0 +1,32 @@
+@media (max-width: 840px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #343a40;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+    margin-top: 19px;
+    gap: 29px;
+    padding: 37px 0;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cart {
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
