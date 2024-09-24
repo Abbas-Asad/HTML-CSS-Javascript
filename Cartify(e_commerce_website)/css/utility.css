@@ -27,18 +27,12 @@
   padding: 34px 17px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  /* transition: background-color 0.3s, transform 0.3s; */
   z-index: 10;
-}
-
-/* .scroll-btn:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  transform: translateY(-50%) scale(1.1);
 }
 
 .scroll-btn:active {
   transform: translateY(-50%) scale(0.95);
-} */
+}
 
 .scroll-left {
   left: -1px;
