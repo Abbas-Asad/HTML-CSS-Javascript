@@ -1,2 +1,2 @@
 # 🔗 Check it out here :
-# https://pakistantimer.vercel.app
+# https://cartifymart.netlify.app
