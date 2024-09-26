@@ -1,2 +1,2 @@
 # 🔗 Check it out here :
-# https://netflix-stream.vercel.app
+# https://netflix-stream-site.vercel.app
