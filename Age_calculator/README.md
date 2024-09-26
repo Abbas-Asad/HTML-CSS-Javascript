@@ -1,2 +1,2 @@
-# 🔗 Check it out here :
-# https://age-checker-tool.netlify.app
+# Check it out here :
+# 🔗 https://age-checker-tool.netlify.app
