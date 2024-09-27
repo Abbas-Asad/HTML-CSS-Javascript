@@ -1,0 +1,153 @@
+@media screen and (max-width: 1150px) {
+  footer {
+    max-width: 90vw;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.first {
+    flex-direction: column;
+  }
+  section.first .txt-ins-div {
+    text-align: center;
+    width: auto;
+  }
+  section.first .img-sec,
+  section.first .txt-ins-div {
+    padding: 0;
+  }
+  section.first .img-sec .img2 {
+    padding-bottom: 22px;
+  }
+  section.first {
+    margin: 43px auto;
+  }
+  section.first .img-sec video {
+    top: 69px;
+    right: 31px;
+  }
+  section.first .img-sec .img2 {
+    width: 407px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header input,
+  .last input {
+    font-size: 15px;
+    width: 246px;
+    padding: 9px 13px 8px;
+    margin: 10px 0;
+  }
+  header,
+  .box {
+    height: 480px;
+  }
+  nav {
+    max-width: 90vw;
+  }
+  .hero {
+    gap: 15px;
+  }
+  .hero > :first-child {
+    width: 321px;
+    font-size: 32px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 17px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 16px;
+  }
+  .hero-buttons .btn-red svg {
+    scale: 1.6;
+    height: 7.8px;
+    width: 10px;
+    transform: translate(2px, -0.7px);
+  }
+  .btn-red {
+    padding: 9px 18px;
+    font-size: 15px;
+  }
+  section.first .txt-ins-div :first-child {
+    font-size: 39px;
+  }
+  section.first .txt-ins-div :nth-child(2) {
+    font-size: 22px;
+  }
+  .faq h2 {
+    font-size: 30px;
+  }
+  .faq-box {
+    font-size: 17px;
+  }
+  .faq-box-note {
+    font-size: 17px;
+  }
+  .faq-box span svg {
+    scale: 1.5;
+  }
+  footer .questions {
+    font-size: 15px;
+  }
+  footer .footer .footer-item a {
+    font-size: 15px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .last input,
+  header input {
+    width: 80vw;
+  }
+  nav img {
+    width: 107px;
+  }
+  section.first .txt-ins-div :first-child {
+    font-size: 33px;
+  }
+  section.first .txt-ins-div :nth-child(2) {
+    font-size: 17px;
+  }
+  section.first .img-sec .img1 {
+    width: 357px;
+  }
+  section.first .img-sec video {
+    width: 276px;
+    top: 50px;
+    right: 41px;
+  }
+  section.first .img-sec .img2 {
+    width: 350px;
+  }
+  .hero-buttons {
+    flex-direction: column;
+  }
+  .btn-red {
+    padding: 5px 18px;
+  }
+  .faq h2 {
+    font-size: 20.5px;
+  }
+  .faq-box {
+    font-size: 13px;
+  }
+  .faq-box-note {
+    font-size: 13px;
+  }
+  .faq-box span svg {
+    scale: 1;
+  }
+  footer .questions {
+    font-size: 13px;
+  }
+  footer .footer .footer-item a {
+    font-size: 13px;
+  }
+}
