@@ -1,2 +1,2 @@
-# Frontend_Projects
-Collection of web designing projects.
+# Html_Css_Web_Projects
+Collection of responsive websites using html and css.
