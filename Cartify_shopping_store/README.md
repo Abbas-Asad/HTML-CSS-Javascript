@@ -1,2 +1,2 @@
-# 🔗 Check it out here :
+#Check it out here :
 # https://cartifymart.netlify.app
