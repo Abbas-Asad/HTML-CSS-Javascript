@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: silver;
+}
+
+.container {
+  background-color: rgb(24, 18, 18);
+  padding: 20px;
+  border-radius: 11px;
+}
+
+.hname {
+  color: white;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 400;
+  padding-bottom: 6px;
+  margin-left: 4px;
+}
+
+.btn {
+  background-color: #333333;
+  color: white;
+  padding: 15px 24px;
+  /* border-radius: 34px; */
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 2px;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.txtarea {
+  resize: none;
+  color: black;
+  width: 88.3%;
+  font-size: 21px;
+  line-height: 35px;
+  height: 35px;
+  padding: 8px 14px;
+  overflow: hidden;
+}
+.txtarea::placeholder {
+  color: black;
+}
+
+.oper {
+  background-color: #ff9f0a;
+  color: white;
+}
+
+.row1 :nth-child(1) {
+  background-color: #a5a5a5;
+  color: #010101;
+}
+
+.row1 :nth-child(2) {
+  background-color: #a5a5a5;
+  color: #010101;
+}
+
+.row1 :nth-child(3) {
+  background-color: #a5a5a5;
+  color: #010101;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.row {
+  margin: 9px 0;
+}
+.prl-15 {
+  padding: 15px 15px;
+}
+.prl-26dec9 {
+  padding: 15px 26.9px;
+}
+.prl-27dec87 {
+  padding: 15px 27.87px;
+}
+.prl-19 {
+  padding: 15px 19px;
+}
+.prl-22 {
+  padding: 15px 22px;
+}
+.prl-21 {
+  padding: 15px 21px;
+}
+
+@media screen and (max-width: 430px) {
+  .txtarea {
+    padding: 8px 14px 4px;
+  }
+  .minus {
+    padding: 15px 24.5px;
+  }
+  .equal {
+    padding: 15px 24px;
+  }
+  .multi,
+  .divide {
+    padding: 15px 22.9px;
+  }
+  .plus {
+    padding: 15px 20.9px;
+  }
+}

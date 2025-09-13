@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+*::selection {
+  background-color: red;
+  color: yellow;
+}
+
+body {
+  background-color: #f0f8ff;
+  animation: backgroundColorChange 5s ease-in-out infinite alternate-reverse;
+  animation-play-state: paused;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  height: fit-content;
+  width: fit-content;
+  max-height: 500px;
+  max-width: 500px;
+  overflow: hidden;
+  animation: boxAnimation 3s ease-in-out infinite alternate-reverse;
+  animation-play-state: paused;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  animation: textColorChange 3s ease-in-out infinite alternate-reverse;
+  animation-play-state: paused;
+  padding: 20px;
+  margin: 0;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+button {
+  margin-top: 29px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #244e71;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 0.86em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btnbox {
+  display: flex;
+  gap: 17px;
+}
+
+/* bg-color and border animation */
+@keyframes boxAnimation {
+  0% {
+    border: 10px solid #006400;
+    background-color: #98fb98;
+  }
+
+  50% {
+    border: 10px double #8a2be2;
+    background-color: #db7093;
+  }
+
+  100% {
+    border: 10px groove #ffd700;
+    background-color: #daa520;
+  }
+}
+
+/* bg-color animation */
+@keyframes backgroundColorChange {
+  0% {
+    background-color: #add8e6;
+  }
+
+  50% {
+    background-color: #f4a460;
+  }
+
+  100% {
+    background-color: #4682b4;
+  }
+}
+
+/* paragraph color animation */
+@keyframes textColorChange {
+  0% {
+    color: #ff4500;
+  }
+
+  50% {
+    color: #00008b;
+  }
+
+  100% {
+    color: #006400;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 1em;
+    padding: 13px;
+  }
+
+  button {
+    font-size: 0.76em;
+  }
+}
