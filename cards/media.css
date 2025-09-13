@@ -1,9 +1,0 @@
-@media screen and (max-width: 850px) {
-  body {
-    height: auto;
-  }
-  .cards {
-    flex-direction: column;
-    margin: 20px 0;
-  }
-}

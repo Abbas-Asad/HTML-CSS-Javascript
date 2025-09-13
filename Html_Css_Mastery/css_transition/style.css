@@ -1,0 +1,36 @@
+body {
+  background: #6e28d9;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body:hover {
+  background: black;
+  transition: 2s;
+}
+.box {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+}
+.box:hover {
+  background-color: rgb(252, 39, 39);
+  transform: rotateZ(360deg);
+}
+.box:hover::before {
+  content: "Hello";
+  color: rgb(250, 234, 60);
+}
+.box:hover::after {
+  content: "World";
+  color: rgb(250, 234, 60);
+}
