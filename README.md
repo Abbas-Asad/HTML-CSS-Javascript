@@ -1,9 +1,9 @@
-# 🌟 HTML-CSS-Javascript Learning Hub
+# 🌟 HTML-CSS-Javascript Learning Hub  
 
-> **Welcome to your front-end development journey!** 🚀  
+<!-- > **Welcome to your front-end development journey!** 🚀  
 > This repository is your comprehensive guide to mastering HTML, CSS, and JavaScript. Whether you're a complete beginner or looking to level up your skills, you'll find everything you need to become a confident web developer.
 
----
+--- -->
 
 ## 🎯 What You'll Learn
 
