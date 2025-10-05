@@ -23,7 +23,7 @@
 - **[HTML Cheat Sheet](https://htmlcheatsheet.com/)** - Complete HTML reference with examples
 - **[CSS Cheat Sheet](https://htmlcheatsheet.com/css/)** - All CSS properties and selectors
 - **[JavaScript Cheat Sheet](https://htmlcheatsheet.com/js/)** - JS syntax and methods
-- **[DOM Manipulation Cheat Sheet](https://htmlcheatsheet.com/js/)** - All you need to know about DOM  
+- **[DOM Manipulation Cheat Sheet](https://github.com/Abbas-Asad/HTML-CSS-Javascript/blob/main/cheatsheets/dom_manipulation_cheatsheet.pdf/)** - All you need to know about DOM  
 - **[MDN Web Docs](https://developer.mozilla.org/)** - The ultimate web development reference
 - **[Can I Use](https://caniuse.com/)** - Browser compatibility checker
 
